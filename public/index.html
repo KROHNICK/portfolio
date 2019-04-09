@@ -1,41 +1,272 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
   <head>
+    <title>Portfolio</title>
     <meta charset="utf-8" />
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      content="width=device-width, initial-scale=1, user-scalable=no"
     />
-    <meta name="theme-color" content="#000000" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css"/></noscript>
   </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header" class="alt">
+        <span class="logo"><img src="images/logo.svg" alt=""/></span>
+        <h1>Full Stack Web Developer</h1>
+        <p>
+          I create websites.
+        </p>
+      </header>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+      <!-- Nav -->
+      <nav id="nav">
+        <ul>
+          <li><a href="#intro" class="active">Introduction</a></li>
+          <li><a href="#first">Recent Works</a></li>
+          <li><a href="#second">Skills</a></li>
+          <li><a href="#cta">Resume</a></li>
+        </ul>
+      </nav>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+      <!-- Main -->
+      <div id="main">
+        <!-- Introduction -->
+        <section id="intro" class="main">
+          <div class="spotlight">
+            <div class="content">
+              <header class="major">
+                <h2>Hello, I'm Kanek</h2>
+              </header>
+              <p>
+                I'm a fulltime Full Stack Web Development student at Lambda
+                School. After realizing my love for computers, I decided allow
+                that passion to influence my career and took on web development.
+                I love having a career that I love doing what I do. The more I
+                work with front-end and back-end, the more I learn and find
+                passion in web development.
+              </p>
+              <!-- <ul class="actions">
+                <li><a href="generic.html" class="button">Learn More</a></li>
+              </ul> -->
+            </div>
+            <span class="image"
+              ><img
+                src="https://avatars0.githubusercontent.com/u/44517455?s=460&v=4"
+                alt=""
+            /></span>
+          </div>
+        </section>
+
+        <!-- First Section -->
+        <section id="first" class="main special">
+          <header class="major">
+            <h2>Recent Works</h2>
+          </header>
+          <ul class="features">
+            <li>
+              <span class="icon major style1 fa-code"></span>
+              <h3>Sleepsta</h3>
+              <p>
+                Sleepsta is a mobile application that uses motion tracking to
+                measure sleep. It also has a web application that allows the
+                user to visualize their sleep habits online.
+              </p>
+              <a href="https://sleepsta.netlify.com/" class="button"
+                >See More</a
+              >
+            </li>
+            <li>
+              <span class="icon major style3 fa-copy"></span>
+              <h3>Tipsease</h3>
+              <p>
+                Service workers need a way to collect tips directly. This app
+                will allow payment processing directly to service workers as a
+                tip.
+              </p>
+              <a href="http://tipsease-1.netlify.com/" class="button"
+                >See More</a
+              >
+            </li>
+            <!-- <li>
+              <span class="icon major style5 fa-diamond"></span>
+              <h3>Dolor nullam</h3>
+              <p>
+                Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
+                consequat tempus veroeros sed consequat.
+              </p>
+            </li> -->
+          </ul>
+          <!-- <footer class="major">
+            <ul class="actions special">
+              <li><a href="generic.html" class="button">Learn More</a></li>
+            </ul>
+          </footer> -->
+        </section>
+
+        <!-- Second Section -->
+        <section id="second" class="main special">
+          <header class="major">
+            <h2>Skills</h2>
+            <p>
+              Range from front-end to back-end.<br />
+              <!-- posuere. Nulla massa urna, fermentum eget quam aliquet. -->
+            </p>
+          </header>
+          <ul class="statistics">
+            <li class="style1">
+              <span class="icon fa-code-fork"></span>
+              <strong>React</strong>
+            </li>
+            <li class="style2">
+              <span class="icon fa-folder-open-o"></span>
+              <strong>Redux</strong>
+            </li>
+            <li class="style3">
+              <span class="icon fa-signal"></span>
+              <strong>HTML</strong>
+            </li>
+            <li class="style4">
+              <span class="icon fa-laptop"></span>
+              <strong>CSS</strong>
+            </li>
+            <li class="style5">
+              <span class="icon fa-diamond"></span>
+              <strong>JavaScript</strong>
+            </li>
+            <li class="style1">
+              <span class="icon fa-code-fork"></span>
+              <strong>Express.js</strong>
+            </li>
+          </ul>
+          <ul class="statistics">
+            <li class="style1">
+              <span class="icon fa-code-fork"></span>
+              <strong>Node.js</strong>
+            </li>
+            <li class="style2">
+              <span class="icon fa-folder-open-o"></span>
+              <strong>SQLite</strong>
+            </li>
+            <li class="style3">
+              <span class="icon fa-signal"></span>
+              <strong>Responsive Design</strong>
+            </li>
+            <li class="style4">
+              <span class="icon fa-laptop"></span>
+              <strong>Knex.js</strong>
+            </li>
+            <li class="style5">
+              <span class="icon fa-diamond"></span>
+              <strong>AJAX</strong>
+            </li>
+            <li class="style1">
+              <span class="icon fa-code-fork"></span>
+              <strong>Git</strong>
+            </li>
+          </ul>
+
+          <p class="content"></p>
+          <!-- <footer class="major">
+            <ul class="actions special">
+              <li><a href="generic.html" class="button">Learn More</a></li>
+            </ul>
+          </footer> -->
+        </section>
+
+        <!-- Get Started -->
+        <section id="cta" class="main special">
+          <header class="major">
+            <h2>Resume</h2>
+            <p>
+              I can create work and I'm only going to get better.
+            </p>
+          </header>
+          <footer class="major">
+            <ul class="actions special">
+              <li>
+                <a
+                  href="https://resume.creddle.io/resume/hivtw7yp1hp"
+                  class="button primary"
+                  >See More</a
+                >
+              </li>
+              <!-- <li><a href="generic.html" class="button">Learn More</a></li> -->
+            </ul>
+          </footer>
+        </section>
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <section>
+          <h2>Contact</h2>
+          <p>
+            Feel free to contact me if interested to create better projects.
+          </p>
+          <!-- <ul class="actions">
+            <li><a href="generic.html" class="button">Learn More</a></li>
+          </ul> -->
+        </section>
+        <section>
+          <h2>Etiam feugiat</h2>
+          <dl class="alt">
+            <!-- <dt>Address</dt>
+            <dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd> -->
+            <dt>Phone</dt>
+            <dd>(310) 984-4038</dd>
+            <dt>Email</dt>
+            <dd>business.kanekperez@gmail.com</dd>
+          </dl>
+          <ul class="icons">
+            <!-- <li>
+              <a href="#" class="icon fa-twitter alt"
+                ><span class="label">Twitter</span></a
+              >
+            </li> -->
+            <!-- <li>
+              <a href="#" class="icon fa-facebook alt"
+                ><span class="label">Facebook</span></a
+              >
+            </li> -->
+            <!-- <li>
+              <a href="#" class="icon fa-instagram alt"
+                ><span class="label">Instagram</span></a
+              >
+            </li> -->
+            <li>
+              <a href="https://github.com/KROHNICK" class="icon fa-github alt"
+                ><span class="label">GitHub</span></a
+              >
+            </li>
+            <li>
+              <a href="#" class="icon fa-linkedin alt"
+                ><span class="label">LinkedIn</span></a
+              >
+            </li>
+          </ul>
+        </section>
+        <!-- <p class="copyright">
+          &copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.
+        </p> -->
+      </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
